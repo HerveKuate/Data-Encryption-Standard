@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Cryptography" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Cryptography" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Cryptography" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="bit_tables.cpp" />
+		<Unit filename="bit_tables.h" />
+		<Unit filename="data_messages_examples.h" />
+		<Unit filename="data_tables.h" />
+		<Unit filename="include/LKeyFunction.h" />
+		<Unit filename="include/RkeyFunction.h" />
+		<Unit filename="include/ShiftKey.h" />
+		<Unit filename="include/XORFunction.h" />
+		<Unit filename="include/expansion.h" />
+		<Unit filename="include/pc2.h" />
+		<Unit filename="include/subkeyGeneration.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="permutations.cpp" />
+		<Unit filename="permutations.h" />
+		<Unit filename="sbox_helper.cpp" />
+		<Unit filename="sbox_helper.h" />
+		<Unit filename="src/LKeyFunction.cpp" />
+		<Unit filename="src/Rkeyfunction.cpp" />
+		<Unit filename="src/ShiftKey.cpp" />
+		<Unit filename="src/XORFunction.cpp" />
+		<Unit filename="src/expansion.cpp" />
+		<Unit filename="src/pc2.cpp" />
+		<Unit filename="src/subkeyGeneration.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

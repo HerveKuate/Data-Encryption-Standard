@@ -1,0 +1,34 @@
+Sliced[0] = 1110 01 / E
+Sliced[1] = 0100 10 / 4
+Sliced[2] = 1100 01 / C
+Sliced[3] = 1011 10 / B
+Sliced[4] = 1101 10 / D
+Sliced[5] = 0010 10 / 2
+Sliced[6] = 1001 00 / 9
+Sliced[7] = 1011 10 / B
+Writing this to a file.
+Row = 4 and col = 13 
+Block Output 0 = 10
+Converting to bit block : 1010  / A
+Row = 1 and col = 10 
+Block Output 1 = 7
+Converting to bit block : 0111  / 7
+Row = 4 and col = 9 
+Block Output 2 = 4
+Converting to bit block : 0100  / 4
+Row = 3 and col = 8 
+Block Output 3 = 13
+Converting to bit block : 1101  / D
+Row = 3 and col = 12 
+Block Output 4 = 5
+Converting to bit block : 0101  / 5
+Row = 1 and col = 6 
+Block Output 5 = 2
+Converting to bit block : 0010  / 2
+Row = 3 and col = 3 
+Block Output 6 = 11
+Converting to bit block : 1011  / B
+Row = 3 and col = 8 
+Block Output 7 = 2
+Converting to bit block : 0010  / 2
+Sbox Final Output = 1010 0111 0100 1101 0101 0010 1011 0010  / A74D 52B2 
